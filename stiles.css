@@ -34,6 +34,7 @@ body{
     font-family: sans-serif;
     font-size: 18px;
     border-color: inherit;
+
   }
 .top{
   border: 2px solid;
@@ -168,24 +169,30 @@ body{
   margin:-8px;
   margin-top: 10px;
   color: white;
-  position: sticky;
+  width: 100%;
   border-top: 2px solid var(--myorange);
   overflow: hidden;
+  position: sticky;
+
 }
 .bottom a{
   color: white;
   text-decoration: none;
   padding: 10px;
+
+
 }
 .bottom p{
   padding: 10px;
 }
 #license{
   max-width: 500px;
-  float: right;
+  position: absolute;
+  right: 0;
+  bottom: 0;
   margin-right: 2px;
   margin-bottom: 10px;
-  margin-top: 6%;
+
 
 }
 
@@ -198,14 +205,14 @@ body{
   margin-bottom: -10px;
   margin-right: 6px;
 }
-.code{
+.codeblock{
   background-color: var(--codebg);
   border: 2px solid;
   border-color: var(--codeborder);
   border-radius: 10px;
-  padding: 8px;
+  padding: 5px;
   max-width: 800px;
-  margin-top: 10px;
+  margin-top: 5px;
   color: inherit;
   font-family: monospace;
   font-size: 17px;
@@ -213,12 +220,23 @@ body{
   overflow-x: scroll;
 
 }
+code{
+  background-color: var(--codebg);
+  border: 1px solid;
+  border-color: var(--codeborder);
+  border-radius: 4px;
+  padding: 1px;
+  max-width: 800px;
+  color: inherit;
+  font-family: monospace;
+  font-size: 17px;
+}
 
-#docimg{
-  max-width: 90%;
-  max-height: 90%;
-  padding: 20px;
-  }
+#content{
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
 #side{
   background-color: black;
   max-width: 150px;
@@ -236,9 +254,6 @@ body{
   color: Cyan;
 }
 
-#content{
-  margin-top: 80px;
-}
 .toggle{
   position: fixed;
   left: 0;
