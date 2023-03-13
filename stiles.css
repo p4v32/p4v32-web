@@ -205,6 +205,7 @@ body{
   margin-bottom: -10px;
   margin-right: 6px;
 }
+
 .codeblock{
   background-color: var(--codebg);
   border: 2px solid;
@@ -218,8 +219,8 @@ body{
   font-size: 17px;
   white-space: pre;
   overflow-x: scroll;
-
 }
+
 code{
   background-color: var(--codebg);
   border: 1px solid;
