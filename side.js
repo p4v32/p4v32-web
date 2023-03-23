@@ -4,6 +4,6 @@ function dysplay() {
 }
 
 function hide(){
-  document.getElementById('content').style.marginLeft ='0px';
+  document.getElementById('content').style.marginLeft ='50px';
   document.getElementById('side').hidden = true;
 }
